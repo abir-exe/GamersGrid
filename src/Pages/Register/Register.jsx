@@ -109,9 +109,10 @@ const Register = () => {
           </div>
         </form>
         <p className="text-center my-3 mb-2">
-          Already have an account? Please{" "}
+          Already have an account? Please
+           
           <Link className="text-sm font-bold text-blue-600" to="/login">
-            login
+                 . Login
           </Link>
         </p>
         <div onClick={handleGoogleSignIn} className="cursor-pointer">

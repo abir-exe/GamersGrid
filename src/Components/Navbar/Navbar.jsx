@@ -123,7 +123,7 @@ const Navbar = () => {
               Sign Out
             </button>
           ) : (
-            <Link to="/register">
+            <Link to="/login">
               <button className="btn">Login</button>
             </Link>
           )}
