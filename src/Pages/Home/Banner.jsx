@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+
+
 const Banner = () => {
   return (
     <div
@@ -10,13 +13,11 @@ const Banner = () => {
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
         <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+          <h1 className="mb-5 text-5xl font-exo">Hello Gamers!</h1>
+          <p className="mb-5 font-exo">
+          Your dedicated task management hub for gamers. Coordinate raids, track achievements, and level up your teamwork seamlessly. Join the gaming revolution!
           </p>
-          <button className="btn text-white btn-secondary btn-wide">Lets Explore</button>
+          <button className="btn text-white bg-[#0f172a] text-[18px] hover:text-xl btn-wide">LET'S EXPLORE</button>
         </div>
       </div>
     </div>

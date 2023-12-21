@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
     ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        exo:[ 'Exo', "sans-serif"],
+        // orbitron: ['Orbitron', 'sans-serif']
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
