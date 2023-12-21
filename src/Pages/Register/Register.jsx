@@ -1,8 +1,19 @@
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
+import useAuth from "../../Hooks/useAuth";
+import toast from "react-hot-toast";
+
 
 const Register = () => {
+
+    const { googleSignIn, createUser, updateUserProfile } = useAuth();
+
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const from = location.state?.from?.pathname || "/";
+
   const {
     register,
     handleSubmit,
@@ -10,9 +21,30 @@ const Register = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    createUser(data.email, data.password).then((result) => {
+        const loggedUser = result.user;
+        console.log(loggedUser);
+        updateUserProfile(data.name, data.photoURL)
+        .then(() => {
+            
+                console.log(result.user)
+                toast.success('Registration Successful!')
+                navigate(from)
+            
+        })
+          
+}
+  )}  
+  const handleGoogleSignIn = () => {
+    googleSignIn().then((result) => {
+      console.log(result.user);
+      toast.success("Successfully Signed in!");
+      navigate(from, { replace: true });
+    });
+  };
 
-//   console.log(watch("example"));
 
   return (
     <div>
@@ -82,12 +114,14 @@ const Register = () => {
             login
           </Link>
         </p>
+        <div onClick={handleGoogleSignIn} className="cursor-pointer">
         <div
-        //   onClick={handleGoogle}
+          
           className="flex text-sm md:text-md lg:text-xl justify-center items-center gap-2 border w-2/3 mx-auto px-3  py-2"
         >
           <FcGoogle className="text-2xl"></FcGoogle>
-          <button className="">Register With google</button>
+          <button className="">Register With Google</button>
+        </div>
         </div>
       </div>
     </div>
