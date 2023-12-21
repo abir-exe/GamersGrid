@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "type": "Casual Gamers",
+      "name": "Sarah",
+      "benefit": "Organizes gaming sessions with friends, tracks progress in favorite games.",
+      "imageLink": "https://example.com/sarah-image.jpg"
+    },
+    {
+      "id": 2,
+      "type": "Competitive Players",
+      "name": "Alex",
+      "benefit": "Coordinates strategies and schedules with the team, enhances performance in tournaments.",
+      "imageLink": "https://example.com/alex-image.jpg"
+    },
+    {
+      "id": 3,
+      "type": "Guild Leaders",
+      "name": "Jessica",
+      "benefit": "Efficiently organizes guild events, assigns tasks, and keeps members informed.",
+      "imageLink": "https://example.com/jessica-image.jpg"
+    },
+    {
+      "id": 4,
+      "type": "Streamers and Content Creators",
+      "name": "Mike",
+      "benefit": "Plans and schedules streaming sessions, stays organized for engaging content creation.",
+      "imageLink": "https://example.com/mike-image.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Game Developers",
+      "name": "XYZ Games Team",
+      "benefit": "Streamlines workflow, tracks development milestones, and manages project deadlines.",
+      "imageLink": "https://example.com/xyz-games-team-image.jpg"
+    },
+    {
+      "id": 6,
+      "type": "LFG (Looking for Group) Players",
+      "name": "Kevin",
+      "benefit": "Finds like-minded individuals for cooperative gameplay, discovers and joins gaming sessions.",
+      "imageLink": "https://example.com/kevin-image.jpg"
+    },
+    {
+      "id": 7,
+      "type": "Students and Professionals",
+      "name": "Emily",
+      "benefit": "Balances gaming hobby with academic and work responsibilities, manages time effectively.",
+      "imageLink": "https://example.com/emily-image.jpg"
+    },
+    {
+      "id": 8,
+      "type": "Parents",
+      "name": "Mark",
+      "benefit": "Organizes family gaming nights, plans and executes gaming activities with children.",
+      "imageLink": "https://example.com/mark-image.jpg"
+    },
+    {
+      "id": 9,
+      "type": "Achievement Hunters",
+      "name": "Chloe",
+      "benefit": "Tracks and plans progress in various games, stays motivated to reach in-game milestones.",
+      "imageLink": "https://example.com/chloe-image.jpg"
+    },
+    {
+      "id": 10,
+      "type": "Collaborative Modding Teams",
+      "name": "Modding Team",
+      "benefit": "Coordinates tasks and updates for modding projects, enhances collaboration.",
+      "imageLink": "https://example.com/modding-team-image.jpg"
+    }
+  ]
+  

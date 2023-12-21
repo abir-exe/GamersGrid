@@ -1,10 +1,12 @@
 import Banner from "./Banner";
+import OurMembers from "./OurMembers";
 
 
 const Home = () => {
     return (
-        <div>
+        <div className="space-y-5">
             <Banner></Banner>
+            <OurMembers></OurMembers>
         </div>
     );
 };
