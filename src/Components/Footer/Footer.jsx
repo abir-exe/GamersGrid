@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center p-8 bg-base-300 text-base-content ">
+        <footer className="footer footer-center p-8 bg-base-300 text-base-content py-20">
 <div className=" flex gap-5">
-    <Link to="https://www.linkedin.com/in/web-abirmahmud/" className="text-2xl hover:text-xl hover:text-black"><FaTwitch></FaTwitch></Link>
-    <Link to="https://www.linkedin.com/in/web-abirmahmud/" className="text-2xl hover:text-xl hover:text-black"><FaSteam></FaSteam></Link>
-    <Link to="https://www.linkedin.com/in/web-abirmahmud/" className="text-2xl hover:text-xl hover:text-black"><SiEpicgames></SiEpicgames></Link>
-    <Link to="https://www.linkedin.com/in/web-abirmahmud/" className="text-2xl hover:text-xl hover:text-black"><SiOrigin></SiOrigin></Link>
-    <Link to="https://www.linkedin.com/in/web-abirmahmud/" className="text-2xl hover:text-xl hover:text-black"><SiXbox></SiXbox></Link>
-    <Link to="https://www.facebook.com/abir.mahmudXD" className="text-2xl  hover:text-xl hover:text-black"><FaFacebook></FaFacebook></Link>
-    <Link to="https://www.twitter.com/abirmahmud_" className="text-2xl  hover:text-xl hover:text-black"><FaTwitter></FaTwitter></Link>
-    <Link to="https://instagram.com/abiir_asholeii/" className="text-2xl  hover:text-xl hover:text-black"><FaInstagram></FaInstagram></Link>
-    <Link to="https://github.com/abir-exe" className="text-2xl  hover:text-xl hover:text-black"><SiPlaystation></SiPlaystation></Link>
+    <Link to="https://www.twitch.tv/" className="text-3xl hover:text-2xl hover:text-black"><FaTwitch></FaTwitch></Link>
+    <Link to="https://store.steampowered.com/" className="text-3xl hover:text-2xl hover:text-black"><FaSteam></FaSteam></Link>
+    <Link to="https://store.epicgames.com/en-US/" className="text-3xl hover:text-2xl hover:text-black"><SiEpicgames></SiEpicgames></Link>
+    <Link to="https://www.ea.com/games/library/pc-download" className="text-3xl hover:text-2xl hover:text-black"><SiOrigin></SiOrigin></Link>
+    <Link to="https://www.xbox.com/" className="text-3xl hover:text-2xl hover:text-black"><SiXbox></SiXbox></Link>
+    <Link to="https://www.facebook.com/" className="text-3xl  hover:text-2xl hover:text-black"><FaFacebook></FaFacebook></Link>
+    <Link to="https://www.twitter.com/" className="text-3xl  hover:text-2xl hover:text-black"><FaTwitter></FaTwitter></Link>
+    <Link to="https://instagram.com/" className="text-3xl  hover:text-2xl hover:text-black"><FaInstagram></FaInstagram></Link>
+    <Link to="https://www.playstation.com/en-us/" className="text-3xl  hover:text-2xll hover:text-black"><SiPlaystation></SiPlaystation></Link>
 </div>
   <aside>
     <hr />
