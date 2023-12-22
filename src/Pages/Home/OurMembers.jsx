@@ -28,7 +28,7 @@ const OurMembers = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/public/Members.json');
+        const response = await fetch('/Members.json');
         const data = await response.json();
         setUserData(data);
       } catch (error) {
