@@ -28,7 +28,7 @@ const Navbar = () => {
         <Link to="/">Guilds</Link>
       </li>
       <li>
-        <Link to="/">Achievements</Link>
+        <Link to="dashboard">Dashboard</Link>
       </li>
       <li>
         <Link to="/">LeaderBoards</Link>
