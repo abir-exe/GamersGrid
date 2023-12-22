@@ -42,8 +42,8 @@ console.log(userData)
 
     return (
         <div>
-            <div className="w-2/6 mx-auto uppercase text-3xl font-exo text-center border-b py-1 mb-20">Our Peoples</div>
-            <div>
+            <div className="w-2/6 mx-auto uppercase text-3xl font-exo text-center border-b py-1 mb-20 mt-20">Our Peoples</div>
+            <div className="mb-20">
             <Swiper
               modules={[EffectCoverflow, Navigation, Pagination, Scrollbar, A11y, Autoplay]}
               autoplay={{
@@ -69,13 +69,13 @@ console.log(userData)
               {
                 userData.map(user => <SwiperSlide key={user.id}>
                     <div className="card my-10 lg:card-side bg-base-100 shadow-xl">
-        <figure><img src="https://daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.jpg" alt="Album"/></figure>
+        <figure><img src={user.imageLink} alt="Album"/></figure>
         <div className="card-body">
           <h2 className="card-title">Name: {user.name}</h2>
           <p className="font-exo">Profession: {user.type}</p>
           <p>Benefit: {user.benefit}</p>
           <div className="card-actions justify-end">
-            <button className="btn text-black bg-secondary text-[18px] hover:text-xl">Join</button>
+            {/* <button className="btn text-black bg-secondary text-[18px] hover:text-xl">Join</button> */}
           </div>
         </div>
       </div>
