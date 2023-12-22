@@ -4,6 +4,7 @@ import Main from "../Layout/Main";
 import Register from "../Pages/Register/Register";
 import Login from "../Pages/Login/Login";
 import Dashboard from "../Pages/Dashsboard/DashBoard/Dashboard";
+import CreateTask from "../Pages/Dashsboard/CreateTask/CreateTask";
 
 const router = createBrowserRouter([
     {
@@ -27,7 +28,12 @@ const router = createBrowserRouter([
     {
       path: "dashboard",
       element: <Dashboard></Dashboard>,
-      
+      children: [
+        {
+          path: "createTask",
+          element: <CreateTask></CreateTask>
+        }
+      ]
     }
   ]);
 

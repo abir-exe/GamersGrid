@@ -22,13 +22,10 @@ const Navbar = () => {
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/">Tasks</Link>
-      </li>
-      <li>
         <Link to="/">Guilds</Link>
       </li>
       <li>
-        <Link to="dashboard">Dashboard</Link>
+        <Link to="dashboard">Task Management</Link>
       </li>
       <li>
         <Link to="/">LeaderBoards</Link>
