@@ -24,9 +24,9 @@ const Dashboard = () => {
   return (
     <>
     
-    <div className="flex flex-row-reverse">
+    <div className="flex flex-row-reverse relative">
       {/* dashboard side bar  */}
-      <div className="w-64 my-20 min-h-full bg-secondary sticky text-white">
+      <div className="w-64 my-20 h-2/3 bg-secondary sticky top-0 rounded-md py-5 text-white">
       <div className="mt-5 p-2 py-5">
               {user && (
                 <div className="flex flex-col lg:flex-row-reverse  items-center justify-center gap-2 mr-2 text-white">
