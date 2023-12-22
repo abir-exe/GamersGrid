@@ -50,7 +50,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 px-4">
+    <div className="navbar bg-base-100 px-8">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -77,7 +77,7 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">GamersGrid</a>
-      <div>
+      {/* <div>
               {user && (
                 <div className="flex flex-col lg:flex-row-reverse  items-center justify-center gap-2 mr-2 text-white">
                   <h3>User: {user?.displayName}</h3>
@@ -88,7 +88,7 @@ const Navbar = () => {
                   </div>
                 </div>
               )}
-            </div>
+            </div> */}
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
