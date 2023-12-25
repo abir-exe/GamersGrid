@@ -42,7 +42,8 @@ const OurMembers = () => {
 
     return (
         <div>
-            <div className="w-2/6 mx-auto uppercase text-3xl font-exo text-center border-b py-1 mb-20 mt-20">Our Peoples</div>
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="w-2/6 mx-auto uppercase text-3xl font-exo text-center border-b py-1 mb-20 mt-20">Our Peoples</div>
             <div className="mb-20">
             <Swiper
               modules={[EffectCoverflow, Navigation, Pagination, Scrollbar, A11y, Autoplay]}

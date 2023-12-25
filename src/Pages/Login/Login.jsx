@@ -18,7 +18,7 @@ const Login = () => {
       const user = result.user;
       console.log(user);
       toast.success("Successfully Signed in!");
-      navigate("/dashboard", { replace: true });
+      navigate("/dashboard/allTasks", { replace: true });
     });
   };
 
@@ -26,7 +26,7 @@ const Login = () => {
     googleSignIn().then((result) => {
       console.log(result.user);
       toast.success("Successfully Signed in!");
-      navigate("/dashboard", { replace: true });
+      navigate("/dashboard/allTasks", { replace: true });
     });
   };
 

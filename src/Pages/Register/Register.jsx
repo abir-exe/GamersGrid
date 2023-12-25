@@ -31,7 +31,7 @@ const Register = () => {
             
                 console.log(result.user)
                 toast.success('Registration Successful!')
-                navigate("/dashboard")
+                navigate("dashboard/allTasks")
             
         })
           
@@ -41,7 +41,7 @@ const Register = () => {
     googleSignIn().then((result) => {
       console.log(result.user);
       toast.success("Successfully Signed in!");
-      navigate("/dashboard", { replace: true });
+      navigate("dashboard/allTasks", { replace: true });
     });
   };
 
