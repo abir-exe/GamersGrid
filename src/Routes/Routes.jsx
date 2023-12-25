@@ -8,6 +8,8 @@ import CreateTask from "../Pages/Dashsboard/CreateTask/CreateTask";
 import ToDo from "../Pages/Dashsboard/ToDo/ToDo";
 import PrivateRoute from "./PrivateRoute";
 import AllTasks from "../Pages/Dashsboard/AllTasks/AllTasks";
+import Profile from "../Pages/Dashsboard/Profile/Profile";
+import AllGamers from "../Pages/Dashsboard/AllGamers/AllGamers";
 
 const router = createBrowserRouter([
     {
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
         {
           path: "allTasks",
           element: <AllTasks></AllTasks>
+        },
+        {
+          path: "profile",
+          element: <Profile></Profile>
+        },
+        {
+          path: "allGamers",
+          element: <AllGamers></AllGamers>
         }
       ]
     }

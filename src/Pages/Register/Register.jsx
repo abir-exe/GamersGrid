@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import useAuth from "../../Hooks/useAuth";
 import toast from "react-hot-toast";
@@ -10,9 +10,9 @@ const Register = () => {
     const { googleSignIn, createUser, updateUserProfile } = useAuth();
 
   const navigate = useNavigate();
-  const location = useLocation();
+  
 
-  const from = location.state?.from?.pathname || "/";
+  
 
   const {
     register,
@@ -31,7 +31,7 @@ const Register = () => {
             
                 console.log(result.user)
                 toast.success('Registration Successful!')
-                navigate(from)
+                navigate("/dashboard")
             
         })
           
@@ -41,7 +41,7 @@ const Register = () => {
     googleSignIn().then((result) => {
       console.log(result.user);
       toast.success("Successfully Signed in!");
-      navigate(from, { replace: true });
+      navigate("/dashboard", { replace: true });
     });
   };
 

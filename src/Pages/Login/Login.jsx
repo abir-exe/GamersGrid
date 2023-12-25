@@ -1,4 +1,4 @@
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import useAuth from "../../Hooks/useAuth";
 import toast from "react-hot-toast";
@@ -7,9 +7,6 @@ const Login = () => {
   const { signIn, googleSignIn } = useAuth();
 
   const navigate = useNavigate();
-  const location = useLocation();
-
-  const from = location.state?.from?.pathname || "/";
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -21,7 +18,7 @@ const Login = () => {
       const user = result.user;
       console.log(user);
       toast.success("Successfully Signed in!");
-      navigate(from, { replace: true });
+      navigate("/dashboard", { replace: true });
     });
   };
 
@@ -29,7 +26,7 @@ const Login = () => {
     googleSignIn().then((result) => {
       console.log(result.user);
       toast.success("Successfully Signed in!");
-      navigate(from, { replace: true });
+      navigate("/dashboard", { replace: true });
     });
   };
 

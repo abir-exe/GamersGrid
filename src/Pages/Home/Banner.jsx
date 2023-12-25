@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import { Link } from "react-router-dom";
+
 
 const Banner = () => {
   return (
@@ -17,7 +19,7 @@ const Banner = () => {
           <p className="mb-5 font-exo">
           Your dedicated task management hub for gamers. Coordinate raids, track achievements, and level up your teamwork seamlessly. Join the gaming revolution!
           </p>
-          <button className="btn text-white bg-[#0f172a] text-[18px] hover:text-xl btn-wide">LET'S EXPLORE</button>
+          <Link to="/login" className="btn text-white bg-[#0f172a] text-[18px] hover:text-xl btn-wide">LET'S EXPLORE</Link>
         </div>
       </div>
     </div>

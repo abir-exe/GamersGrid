@@ -3,29 +3,26 @@ import useAuth from "../../Hooks/useAuth";
 import toast from "react-hot-toast";
 
 const Navbar = () => {
-
-
-
   const { user, logOut } = useAuth();
 
   const handleSignOut = () => {
-    logOut()
-      .then(toast.success("Logout Successful!"))
-      .catch();
+    logOut().then(toast.success("Logout Successful!")).catch();
   };
 
-  console.log(user?.displayName);
+  // console.log(user?.displayName);
 
   const navLinks = (
     <>
       <li>
         <Link to="/">Home</Link>
       </li>
+      {user && (
+        <li>
+          <Link to="dashboard/allTasks">Task Management</Link>
+        </li>
+      )}
       <li>
         <Link to="/">Guilds</Link>
-      </li>
-      <li>
-        <Link to="dashboard">Task Management</Link>
       </li>
       <li>
         <Link to="/">LeaderBoards</Link>
@@ -77,7 +74,7 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost text-xl">GamersGrid</a>
-      {/* <div>
+        {/* <div>
               {user && (
                 <div className="flex flex-col lg:flex-row-reverse  items-center justify-center gap-2 mr-2 text-white">
                   <h3>User: {user?.displayName}</h3>
@@ -94,21 +91,16 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        
-          {user ? (
-            <button onClick={handleSignOut} className="btn">
-              Sign Out
-            </button>
-          ) : (
-            <Link to="/login">
-              <button className="btn">Login</button>
-            </Link>
-          )}
-          
-
-
-
-        </div>
+        {user ? (
+          <button onClick={handleSignOut} className="btn">
+            Sign Out
+          </button>
+        ) : (
+          <Link to="/login">
+            <button className="btn">Login</button>
+          </Link>
+        )}
+      </div>
     </div>
   );
 };

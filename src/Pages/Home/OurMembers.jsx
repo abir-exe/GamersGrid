@@ -38,7 +38,7 @@ const OurMembers = () => {
 
     fetchData();
   }, []);
-console.log(userData)
+// console.log(userData)
 
     return (
         <div>
