@@ -6,6 +6,7 @@ import Login from "../Pages/Login/Login";
 import Dashboard from "../Pages/Dashsboard/DashBoard/Dashboard";
 import CreateTask from "../Pages/Dashsboard/CreateTask/CreateTask";
 import ToDo from "../Pages/Dashsboard/ToDo/ToDo";
+import PrivateRoute from "./PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -28,7 +29,7 @@ const router = createBrowserRouter([
     },
     {
       path: "dashboard",
-      element: <Dashboard></Dashboard>,
+      element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
       children: [
         {
           path: "createTask",
