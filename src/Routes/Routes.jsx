@@ -10,6 +10,8 @@ import PrivateRoute from "./PrivateRoute";
 import AllTasks from "../Pages/Dashsboard/AllTasks/AllTasks";
 import Profile from "../Pages/Dashsboard/Profile/Profile";
 import AllGamers from "../Pages/Dashsboard/AllGamers/AllGamers";
+import Leaderboard from "../Pages/Leaderboard/Leaderboard";
+import News from "../Pages/News/News";
 
 const router = createBrowserRouter([
     {
@@ -28,6 +30,14 @@ const router = createBrowserRouter([
           path: "/login",
           element: <Login></Login>
         },
+        {
+          path: "/leaderboard",
+          element: <Leaderboard></Leaderboard>
+        },
+        {
+          path: "/news",
+          element: <News></News>
+        }
       ]
     },
     {

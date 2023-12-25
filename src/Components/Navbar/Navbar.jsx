@@ -25,10 +25,10 @@ const Navbar = () => {
         <Link to="/">Guilds</Link>
       </li>
       <li>
-        <Link to="/">LeaderBoards</Link>
+        <Link to="/leaderboard">LeaderBoard</Link>
       </li>
       <li>
-        <Link to="/">News</Link>
+        <Link to="/news">News</Link>
       </li>
       <li>
         <details>
