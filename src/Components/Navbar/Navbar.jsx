@@ -31,17 +31,7 @@ const Navbar = () => {
         <Link to="/news">News</Link>
       </li>
       <li>
-        <details>
-          <summary>Help</summary>
-          <ul className="p-2">
-            <li>
-              <a>Community</a>
-            </li>
-            <li>
-              <a>Contact Us</a>
-            </li>
-          </ul>
-        </details>
+        <Link to="/help">Help</Link>
       </li>
     </>
   );
