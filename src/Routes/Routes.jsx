@@ -7,6 +7,7 @@ import Dashboard from "../Pages/Dashsboard/DashBoard/Dashboard";
 import CreateTask from "../Pages/Dashsboard/CreateTask/CreateTask";
 import ToDo from "../Pages/Dashsboard/ToDo/ToDo";
 import PrivateRoute from "./PrivateRoute";
+import AllTasks from "../Pages/Dashsboard/AllTasks/AllTasks";
 
 const router = createBrowserRouter([
     {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
         {
           path: "todo",
           element: <ToDo></ToDo>
+        },
+        {
+          path: "allTasks",
+          element: <AllTasks></AllTasks>
         }
       ]
     }

@@ -27,7 +27,7 @@ const Dashboard = () => {
     <div className="flex flex-row-reverse relative">
       {/* dashboard side bar  */}
       <div className="w-64 my-20 h-2/3 bg-secondary sticky top-0 rounded-md py-5 text-white">
-      <div className="mt-5 p-2 py-5">
+      <div className="mt-2 p-2 py-2">
               {user && (
                 <div className="flex flex-col lg:flex-row-reverse  items-center justify-center gap-2 mr-2 text-white">
                   <h3>User: {user?.displayName}</h3>
@@ -59,8 +59,8 @@ const Dashboard = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/dashboard/tournaments">
-                  <FaBook /> Tournaments
+                <NavLink to="/dashboard/allTasks">
+                  <FaBook /> All Tasks
                 </NavLink>
               </li>
               <li>
