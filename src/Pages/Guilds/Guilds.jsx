@@ -21,13 +21,13 @@ const Guilds = () => {
 
   return (
     <div>
-        <h2 className="text-2xl text-center border w-4/12 mx-auto py-2 my-10">
+        <h2 className="text-2xl text-center border w-4/12 mx-auto py-2 my-20">
         Top Guilds
       </h2>
       {/* cards */}
-      <div className="w-11/12 mx-auto">
+      <div className="w-11/12 mx-auto grid grid-cols-4 gap-3">
         {
-          guilds.map(guild => <div key={guild._id} className="card w-96 bg-base-100 shadow-xl image-full">
+          guilds.map(guild => <div key={guild._id} className="card rounded-none image-full">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
