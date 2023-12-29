@@ -17,7 +17,6 @@ const Guilds = () => {
       return res.data;
     },
   });
-  console.log(guilds)
 
   return (
     <div>

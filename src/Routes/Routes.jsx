@@ -46,7 +46,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/guilds",
-        element: <Guilds></Guilds>
+        element: <PrivateRoute><Guilds></Guilds></PrivateRoute> 
       }
       ]
     },
