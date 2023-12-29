@@ -99,7 +99,7 @@ const ContactUs = () => {
           </form>
         </section>
         <div className="divider divider-horizontal"></div>
-        <section data-aos="fade-right" className="w-1/2">
+        <section data-aos="fade-left" className="w-1/2">
         <div className="flex flex-col md:flex-row justify-between items-center shadow-md rounded-xl py-10 px-5">
       < div  className="w-1/2">
         <img className="rounded-xl" src="https://plus.unsplash.com/premium_photo-1682310468892-5d8ade38f606?q=80&w=1512&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
