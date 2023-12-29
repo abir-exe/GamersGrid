@@ -27,18 +27,18 @@ const Guilds = () => {
       {/* cards */}
       <div className="w-11/12 mx-auto grid grid-cols-4 gap-3">
         {
-          guilds.map(guild => <div key={guild._id} className="card rounded-none image-full">
+          guilds.map(guild => <div key={guild._id} className="card bg-base-100 shadow-xl image-full">
           <figure>
             <img
-              src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-              alt="Shoes"
+              src="https://miro.medium.com/v2/resize:fit:1400/1*mcA5uKP0nY1tvP20egoP5A.png"
+              alt="guilds"
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">Shoes!</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title">{guild.guild_name}</h2>
+            <p></p>
             <div className="card-actions justify-end">
-              <button className="btn btn-primary">Buy Now</button>
+              <button className="btn btn-secondary btn-outline">Join</button>
             </div>
           </div>
         </div>)
