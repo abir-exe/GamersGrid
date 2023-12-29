@@ -36,7 +36,12 @@ const Guilds = () => {
           </figure>
           <div className="card-body">
             <h2 className="card-title">{guild.guild_name}</h2>
-            <p></p>
+            <p>guild id: {guild.guild_id}</p>
+            <div className="flex justify-between items-center">
+              <div>Members: {guild.total_members}</div>
+              <div>Type: {guild.guild_type}</div>
+            </div>
+            <p>Info: {guild.description}</p>
             <div className="card-actions justify-end">
               <button className="btn btn-secondary btn-outline">Join</button>
             </div>
