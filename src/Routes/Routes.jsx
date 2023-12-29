@@ -13,6 +13,7 @@ import AllGamers from "../Pages/Dashsboard/AllGamers/AllGamers";
 import Leaderboard from "../Pages/Leaderboard/Leaderboard";
 import News from "../Pages/News/News";
 import ContactUs from "../Pages/ContactUs/ContactUs";
+import Guilds from "../Pages/Guilds/Guilds";
 
 const router = createBrowserRouter([
     {
@@ -42,6 +43,10 @@ const router = createBrowserRouter([
       {
         path: "/help",
         element : <PrivateRoute><ContactUs></ContactUs></PrivateRoute>
+      },
+      {
+        path: "/guilds",
+        element: <Guilds></Guilds>
       }
       ]
     },
