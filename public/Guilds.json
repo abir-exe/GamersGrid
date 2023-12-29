@@ -1,0 +1,154 @@
+[
+    {
+      "guild_id": "123abc",
+      "guild_name": "Shadow Ravens",
+      "guild_type": "PvP",
+      "total_members": 56,
+      "description": "A secretive guild of skilled assassins who dominate the battlefield with stealth and precision.",
+      "photo_url": "https://example.com/shadow_ravens.jpg"
+    },
+    {
+      "guild_id": "456def",
+      "guild_name": "Eternal Legends",
+      "guild_type": "PvE",
+      "total_members": 72,
+      "description": "Masters of dungeons and raids, seeking to conquer every challenge the gaming world has to offer.",
+      "photo_url": "https://example.com/eternal_legends.jpg"
+    },
+    {
+      "guild_id": "789ghi",
+      "guild_name": "Arcane Guardians",
+      "guild_type": "RP",
+      "total_members": 38,
+      "description": "A guild of mages and sorcerers, dedicated to preserving the balance between magic and the mortal realms.",
+      "photo_url": "https://example.com/arcane_guardians.jpg"
+    },
+    {
+      "guild_id": "abc123",
+      "guild_name": "Iron Titans",
+      "guild_type": "PvPvE",
+      "total_members": 90,
+      "description": "A formidable force on both the battlefield and in challenging PvE content, known for their strength and resilience.",
+      "photo_url": "https://example.com/iron_titans.jpg"
+    },
+    {
+      "guild_id": "def456",
+      "guild_name": "Celestial Saviors",
+      "guild_type": "PvE",
+      "total_members": 60,
+      "description": "Guardians of the realms, defending against the darkest forces and mastering PvE encounters.",
+      "photo_url": "https://example.com/celestial_saviors.jpg"
+    },
+    {
+      "guild_id": "ghi789",
+      "guild_name": "Shadowstalkers",
+      "guild_type": "PvP",
+      "total_members": 45,
+      "description": "Masters of subterfuge and ambush, lurking in the shadows to strike down their foes.",
+      "photo_url": "https://example.com/shadowstalkers.jpg"
+    },
+    {
+      "guild_id": "jkl012",
+      "guild_name": "Firestorm Clan",
+      "guild_type": "PvPvE",
+      "total_members": 75,
+      "description": "A clan born in the flames of battle, conquering both PvP and PvE challenges with blazing fervor.",
+      "photo_url": "https://example.com/firestorm_clan.jpg"
+    },
+    {
+      "guild_id": "mno345",
+      "guild_name": "Mystic Keepers",
+      "guild_type": "RP",
+      "total_members": 30,
+      "description": "Guardians of ancient lore, weaving stories and magic in the tapestry of the gaming world.",
+      "photo_url": "https://example.com/mystic_keepers.jpg"
+    },
+    {
+      "guild_id": "pqr678",
+      "guild_name": "Doombringers",
+      "guild_type": "PvP",
+      "total_members": 50,
+      "description": "Harbingers of doom on the battlefield, striking fear into the hearts of their enemies.",
+      "photo_url": "https://example.com/doombringers.jpg"
+    },
+    {
+      "guild_id": "stu901",
+      "guild_name": "Starforged Alliance",
+      "guild_type": "PvE",
+      "total_members": 65,
+      "description": "Forged in the crucible of stars, united in the pursuit of PvE excellence and galactic adventures.",
+      "photo_url": "https://example.com/starforged_alliance.jpg"
+    },
+    {
+      "guild_id": "vwx234",
+      "guild_name": "Frostbite Clan",
+      "guild_type": "PvPvE",
+      "total_members": 80,
+      "description": "Masters of icy tactics in both PvP skirmishes and chilling PvE encounters.",
+      "photo_url": "https://example.com/frostbite_clan.jpg"
+    },
+    {
+      "guild_id": "yzab567",
+      "guild_name": "Golden Phoenix Order",
+      "guild_type": "RP",
+      "total_members": 40,
+      "description": "Rising from the ashes, this guild weaves tales of rebirth and renewal in the gaming world.",
+      "photo_url": "https://example.com/golden_phoenix_order.jpg"
+    },
+    {
+      "guild_id": "cdef890",
+      "guild_name": "Stormbringers",
+      "guild_type": "PvP",
+      "total_members": 55,
+      "description": "Unleashing the fury of the storm on the battlefield, striking down foes with lightning speed.",
+      "photo_url": "https://example.com/stormbringers.jpg"
+    },
+    {
+      "guild_id": "ghij234",
+      "guild_name": "Dragon's Breath Clan",
+      "guild_type": "PvE",
+      "total_members": 70,
+      "description": "Harnessing the power of dragons, this clan conquers PvE challenges with fiery determination.",
+      "photo_url": "https://example.com/dragons_breath_clan.jpg"
+    },
+    {
+      "guild_id": "klmn567",
+      "guild_name": "Spectral Reapers",
+      "guild_type": "PvPvE",
+      "total_members": 85,
+      "description": "Harvesting souls on the battlefield and mastering both PvP and PvE with ghostly precision.",
+      "photo_url": "https://example.com/spectral_reapers.jpg"
+    },
+    {
+      "guild_id": "opqr890",
+      "guild_name": "Astral Nomads",
+      "guild_type": "RP",
+      "total_members": 35,
+      "description": "Wanderers of the astral realms, exploring the unknown and shaping the gaming universe.",
+      "photo_url": "https://example.com/astral_nomads.jpg"
+    },
+    {
+      "guild_id": "stuv123",
+      "guild_name": "Phoenix Rising",
+      "guild_type": "PvP",
+      "total_members": 48,
+      "description": "Rising from the ashes of defeat, this guild conquers the PvP arena with renewed vigor.",
+      "photo_url": "https://example.com/phoenix_rising.jpg"
+    },
+    {
+      "guild_id": "wxyz456",
+      "guild_name": "Eclipse Envoys",
+      "guild_type": "PvE",
+      "total_members": 68,
+      "description": "Navigating through the shadows of PvE challenges, leaving a celestial mark on the gaming world.",
+      "photo_url": "https://example.com/eclipse_envoys.jpg"
+    },
+    {
+      "guild_id": "abcd789",
+      "guild_name": "Titanic Reckoning",
+      "guild_type": "PvPvE",
+      "total_members": 92,
+      "description": "Bringing a colossal reckoning to both PvP and PvE realms, leaving a titanic impact.",
+      "photo_url": "https://example.com/titanic_reckoning.jpg"
+    }
+  ]

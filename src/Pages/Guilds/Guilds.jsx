@@ -5,7 +5,7 @@ const Guilds = () => {
         Top Guilds
       </h2>
       {/* cards */}
-      <div >
+      <div className="w-11/12 mx-auto">
         <div className="card w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img
