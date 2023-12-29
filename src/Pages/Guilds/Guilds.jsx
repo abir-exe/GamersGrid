@@ -1,4 +1,24 @@
+import { useQuery } from "@tanstack/react-query";
+import useAxiosSecure from "../../Hooks/useAxiosSecure";
+
 const Guilds = () => {
+
+  const axiosSecure = useAxiosSecure();
+
+
+  const { data: guilds = [] } = useQuery({
+    queryKey: ["users"],
+    queryFn: async () => {
+      const res = await axiosSecure.get("/guilds", {
+        headers: {
+          authorization: `Bearer ${localStorage.getItem("access-token")}`,
+        },
+      });
+      return res.data;
+    },
+  });
+  console.log(guilds)
+
   return (
     <div>
         <h2 className="text-2xl text-center border w-4/12 mx-auto py-2 my-10">
@@ -6,7 +26,8 @@ const Guilds = () => {
       </h2>
       {/* cards */}
       <div className="w-11/12 mx-auto">
-        <div className="card w-96 bg-base-100 shadow-xl image-full">
+        {
+          guilds.map(guild => <div key={guild._id} className="card w-96 bg-base-100 shadow-xl image-full">
           <figure>
             <img
               src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -20,7 +41,9 @@ const Guilds = () => {
               <button className="btn btn-primary">Buy Now</button>
             </div>
           </div>
-        </div>
+        </div>)
+        }
+        
       </div>
     </div>
   );
