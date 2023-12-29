@@ -34,8 +34,8 @@ const Guilds = () => {
               alt="guilds"
             />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">{guild.guild_name}</h2>
+          <div className="card-body font-semibold ">
+            <h2 className="card-title ">{guild.guild_name}</h2>
             <p>guild id: {guild.guild_id}</p>
             <div className="flex justify-between items-center">
               <div>Members: {guild.total_members}</div>
